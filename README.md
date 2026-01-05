@@ -4,6 +4,24 @@
   - Tree	for top to bottom process, use logic before calling recursion and vice versa
   - For bottom to top process add additional return at end of the def
 
+## Trie
+	```python
+	class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.is_word = False
+
+class Trie:
+    def __init__(self, words):
+        self.root = TrieNode()
+        for word in words:
+            cur_node = self.root
+            for char in word:
+                if char not in cur_node.children:
+                    cur_node.children[char] = TrieNode()
+                cur_node = cur_node.children[char]
+            cur_node.is_word = True
+	```
 ## Search
   - use set to search items using `in` keyword for fast retrieval
 
