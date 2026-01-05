@@ -4,6 +4,11 @@
   - Tree	for top to bottom process, use logic before calling recursion and vice versa
   - For bottom to top process add additional return at end of the def
 
+## Graph
+  	| Problem             | Hint                 | Note |
+	|---------------------|----------------------|------|
+	| Extra char in str   | res = 1 + dfs(i+1)   |      |
+
 ## Trie
 	```python
 	class TrieNode:
