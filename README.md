@@ -5,9 +5,9 @@
   - For bottom to top process add additional return at end of the def
 
 ## Graph
-  	| Problem             | Hint                 | Note |
-	|---------------------|----------------------|------|
-	| Extra char in str   | res = 1 + dfs(i+1)   |      |
+| Problem             | Hint                     | Note |
+|---------------------|--------------------------|------|
+| Surrownded regions  | find land from 4 borders |      |
 
 ## Trie
 	```python
