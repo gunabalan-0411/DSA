@@ -9,6 +9,12 @@
 |---------------------|--------------------------|------|
 | Surrownded regions  | find land from 4 borders |      |
 
+## Advanced Graph
+| Problem             | Hint                     | Note |
+|---------------------|--------------------------|------|
+| Reconstruct itenarary | dfs to until each node ran out of adj vect by pop |      |
+
+
 ## Trie
 	```python
 	class TrieNode:
