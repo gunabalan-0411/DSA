@@ -16,23 +16,23 @@
 
 
 ## Trie
-	```python
-	class TrieNode:
-    def __init__(self):
-        self.children = {}
-        self.is_word = False
+```python
+class TrieNode:
+def __init__(self):
+	self.children = {}
+	self.is_word = False
 
-	class Trie:
-	    def __init__(self, words):
-	        self.root = TrieNode()
-	        for word in words:
-	            cur_node = self.root
-	            for char in word:
-	                if char not in cur_node.children:
-	                    cur_node.children[char] = TrieNode()
-	                cur_node = cur_node.children[char]
-	            cur_node.is_word = True
-	```
+class Trie:
+	def __init__(self, words):
+		self.root = TrieNode()
+		for word in words:
+			cur_node = self.root
+			for char in word:
+				if char not in cur_node.children:
+					cur_node.children[char] = TrieNode()
+				cur_node = cur_node.children[char]
+			cur_node.is_word = True
+```
 | Problem             | Hint                 | Note |
 |---------------------|----------------------|------|
 | Extra char in str   | res = 1 + dfs(i+1)   |      |
