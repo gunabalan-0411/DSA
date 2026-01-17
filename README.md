@@ -46,9 +46,9 @@ class Trie:
 
 ## Backtrack
   - Subset problem: every iteration youll add and remove item with two recursive
-| Problem             | Hint                 | Note |
-|---------------------|----------------------|------|
-| Combination Sum   | append() and pop() compare total  |      |
+  - | Problem             | Hint                 | Note |
+	|---------------------|----------------------|------|
+	| Combination Sum   | append() and pop() compare total  |      |
 
 ## Heap
   - minheap	heapq.heapify(self.minHeap)
