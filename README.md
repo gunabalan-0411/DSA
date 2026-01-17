@@ -46,6 +46,9 @@ class Trie:
 
 ## Backtrack
   - Subset problem: every iteration youll add and remove item with two recursive
+| Problem             | Hint                 | Note |
+|---------------------|----------------------|------|
+| Combination Sum   | append() and pop() compare total  |      |
 
 ## Heap
   - minheap	heapq.heapify(self.minHeap)
@@ -62,6 +65,10 @@ class Trie:
       - The modulas of the divisor with the items should not return remainder
     - Excel Sheet Column Title
       - O log 26 : from last digit calculate the offset (columnNumber - 1) % 26, to move from last move (columnNumber - 1) // 26
+## Intervals
+| Problem             | Hint                 | Note |
+|---------------------|----------------------|------|
+| eraseOverlapIntervals   | sort start and choose prevEnd with min end  |      |
 
 ## Bit Manipulation
   - Any number XOR (^) with same number gives 0 , 0 ^ n -> n
