@@ -3,6 +3,13 @@
 ## Tree
   - Tree	for top to bottom process, use logic before calling recursion and vice versa
   - For bottom to top process add additional return at end of the def
+## Dynamic Programming - 1D
+| Problem             | Hint                     | Note |
+|---------------------|--------------------------|------|
+| House robbing I  | dfs: max(dfs(i+1), nums[i]+dfs(i+2)), for dp: rob1, rob2 newRob = max(rob1+n, rob2), reassign alternative|      |
+| House robbing II  | same but call it twice with 0 to -1, 1 to full |   to avoid circular issues   |
+
+
 
 ## Graph
 | Problem             | Hint                     | Note |
@@ -65,6 +72,12 @@ class Trie:
       - The modulas of the divisor with the items should not return remainder
     - Excel Sheet Column Title
       - O log 26 : from last digit calculate the offset (columnNumber - 1) % 26, to move from last move (columnNumber - 1) // 26
+```python
+def gcd(a, b):
+	while b != 0:
+		a, b = b, a % b
+	return a
+```
 ## Intervals
 | Problem             | Hint                 | Note |
 |---------------------|----------------------|------|
