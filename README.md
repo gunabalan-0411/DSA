@@ -1,14 +1,9 @@
 # DSA
 
-## Tree
-  - Tree	for top to bottom process, use logic before calling recursion and vice versa
-  - For bottom to top process add additional return at end of the def
-## Dynamic Programming - 1D
+## Two Pointer
 | Problem             | Hint                     | Note |
 |---------------------|--------------------------|------|
-| House robbing I  | dfs: max(dfs(i+1), nums[i]+dfs(i+2)), for dp: rob1, rob2 newRob = max(rob1+n, rob2), reassign alternative|      |
-| House robbing II  | same but call it twice with 0 to -1, 1 to full |   to avoid circular issues   |
-
+| 3 Sum  | sort and iterate only neg nums and find l, r + neg== 0 using two pointer |      |
 
 
 ## Graph
@@ -51,11 +46,25 @@ class Trie:
   - BFS explores by increasing path length, so BFS algorithm itself gaurantee shortest path
   - to process invidividual items level by level use without for loop else use it to
 
+
+## Tree
+  - Tree	for top to bottom process, use logic before calling recursion and vice versa
+  - For bottom to top process add additional return at end of the def
+  
+## Dynamic Programming - 1D
+| Problem             | Hint                     | Note |
+|---------------------|--------------------------|------|
+| House robbing I  | dfs: max(dfs(i+1), nums[i]+dfs(i+2)), for dp: rob1, rob2 newRob = max(rob1+n, rob2), reassign alternative|      |
+| House robbing II  | same but call it twice with 0 to -1, 1 to full |   to avoid circular issues   |
+
+---
+
 ## Backtrack
   - Subset problem: every iteration youll add and remove item with two recursive
   - | Problem             | Hint                 | Note |
 	|---------------------|----------------------|------|
 	| Combination Sum   | append() and pop() compare total  |      |
+  | Subsets II   | append(), skip(i+1), pop(), skip(i+1)   |  skip duplicate number after pop()    |
 
 ## Heap
   - minheap	heapq.heapify(self.minHeap)
