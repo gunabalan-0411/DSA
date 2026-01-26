@@ -5,6 +5,13 @@
 |---------------------|--------------------------|------|
 | 3 Sum  | sort and iterate only neg nums and find l, r + neg== 0 using two pointer |      |
 
+## Stack
+| Problem             | Hint                     | Note |
+|---------------------|--------------------------|------|
+| eval reverse polish notation  | iterate each eval and store in same [] |      |
+
+
+
 ## Sliding Window
 
 | Problem             | Hint                     | Note |
