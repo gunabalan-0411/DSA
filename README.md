@@ -69,6 +69,7 @@ class Trie:
 | House robbing I  | dfs: max(dfs(i+1), nums[i]+dfs(i+2)), for dp: rob1, rob2 newRob = max(rob1+n, rob2), reassign alternative|      |
 | House robbing II  | same but call it twice with 0 to -1, 1 to full |   to avoid circular issues   |
 | Longest Palindromic Substring | if s[i]==s[j] & (j-i<=2 or dp[i+1][j-1]) | create a 2D dp |
+| Palindromic substrings | for loop for even and odd, | for each char expan from mid using l, r |
 
 ---
 
