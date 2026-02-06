@@ -22,6 +22,7 @@
 | Problem             | Hint                     | Note |
 |---------------------|--------------------------|------|
 | Surrownded regions  | find land from 4 borders |      |
+| Open the local      | use BFS add deadlocks to visit and helper function to generate possibilites| digit=lock[i]+1%10 and lock[i]-1+10 % 10
 
 ## Advanced Graph
 | Problem             | Hint                     | Note |
@@ -75,10 +76,12 @@ class Trie:
 
 ## Backtrack
   - Subset problem: every iteration youll add and remove item with two recursive
-  - | Problem             | Hint                 | Note |
-	|---------------------|----------------------|------|
-	| Combination Sum   | append() and pop() compare total  |      |
-  | Subsets II   | append(), skip(i+1), pop(), skip(i+1)   |  skip duplicate number after pop()    |
+
+| Problem             | Hint                 | Note |
+|---------------------|----------------------|------|
+| Combination Sum   | append() and pop() compare total  |      |
+| Subsets II   | append(), skip(i+1), pop(), skip(i+1)   |  skip duplicate number after pop()    |
+| generate paranthesis | use dfs | close count < open and open < n |
 
 ## Heap
   - minheap	heapq.heapify(self.minHeap)
