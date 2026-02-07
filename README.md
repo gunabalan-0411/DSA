@@ -28,6 +28,7 @@
 | Problem             | Hint                     | Note |
 |---------------------|--------------------------|------|
 | Reconstruct itenarary | dfs to until each node ran out of adj vect by pop |      |
+| Min Cost to con all pnts| prep for loops i-N, i+1,N for adj [dist, nei] | while loops and use minHeap to choose min cost always |
 
 
 ## Trie
@@ -71,6 +72,7 @@ class Trie:
 | House robbing II  | same but call it twice with 0 to -1, 1 to full |   to avoid circular issues   |
 | Longest Palindromic Substring | if s[i]==s[j] & (j-i<=2 or dp[i+1][j-1]) | create a 2D dp |
 | Palindromic substrings | for loop for even and odd, | for each char expan from mid using l, r |
+|Decode ways| dfs to check if num within 10-26 then dfs(i+2)| use dp[n: 1] and then move on|
 
 ---
 
