@@ -74,7 +74,10 @@ class Trie:
 | Palindromic substrings | for loop for even and odd, | for each char expan from mid using l, r |
 |Decode ways| dfs to check if num within 10-26 then dfs(i+2)| use dp[n: 1] and then move on|
 
----
+## Dynamic Programming - 2D
+| Problem             | Hint                     | Note |
+|---------------------|--------------------------|------|
+| Coin change 2  | 2d dp with one additional col row assigned as 1|   dp[a][i] = dp[a][i+1], if a-coins[i] > 0 dp[a][i] += dp[a-coins[i]][i]   |
 
 ## Backtrack
   - Subset problem: every iteration youll add and remove item with two recursive
