@@ -20,5 +20,5 @@ class Solution:
                 matrix[bottom][r - i] = matrix[top + i][r]
                 # Move top left to top right
                 matrix[top + i][r] = topLeft
-            l += 1
+            l += 1  # noqa: E741
             r -= 1
