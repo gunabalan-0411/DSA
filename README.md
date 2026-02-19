@@ -103,7 +103,12 @@ class Trie:
       - The modulas of the divisor with the items should not return remainder
     - Excel Sheet Column Title
       - O log 26 : from last digit calculate the offset (columnNumber - 1) % 26, to move from last move (columnNumber - 1) // 26
-```python
+
+  | Problem             | Hint                 | Note |
+  |---------------------|----------------------|------|
+  | Rotate image   | keep l, r, top, bottom  | while l<\r: for i in range(r-l):  |
+  
+
 def gcd(a, b):
 	while b != 0:
 		a, b = b, a % b
