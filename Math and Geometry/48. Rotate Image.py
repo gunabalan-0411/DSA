@@ -6,7 +6,7 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        l, r = 0, len(matrix) - 1
+        l, r = 0, len(matrix) - 1  # noqa: E741
         while l < r:
             for i in range(r - l):
                 top, bottom = l, r
