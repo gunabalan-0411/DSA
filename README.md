@@ -125,3 +125,7 @@ def gcd(a, b):
   ### Problems
     - Counting bits problem use offset (power of 2) and Dynamic programming: dp[i] = 1 + dp[i-offset]
   
+## Greedy
+| Problem             | Hint                 | Note |
+|---------------------|----------------------|------|
+| Jump Game II | BFS, use l, r pointer  | no of levels = min path here     |
