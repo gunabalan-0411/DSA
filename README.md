@@ -1,5 +1,7 @@
 # DSA
 
+Today: Arrays & Hashing
+
 ## Two Pointer
 | Problem             | Hint                     | Note |
 |---------------------|--------------------------|------|
